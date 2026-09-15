@@ -55,3 +55,6 @@ dist/
 
 # Internal roadmap and planning docs
 ROADMAP.md
+
+# Local Tekton PipelineRuns (ECR details, not for upstream)
+.tekton/
