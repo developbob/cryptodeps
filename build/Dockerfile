@@ -4,7 +4,7 @@
 FROM alpine:3.19
 
 # Install ca-certificates for HTTPS
-RUN apk add --no-cache ca-certificates tzdata
+RUN apk add --no-cache ca-certificates tzdata jq
 
 # Create non-root user
 RUN adduser -D -g '' cryptodeps

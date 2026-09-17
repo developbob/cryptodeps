@@ -24,7 +24,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build \
 # Runtime stage
 FROM ${RUNTIME_IMAGE}
 
-RUN apk --no-cache add ca-certificates git
+RUN apk --no-cache add ca-certificates git jq
 
 WORKDIR /workspace
 
